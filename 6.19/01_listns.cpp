@@ -5,6 +5,7 @@
 #include <sys/syscall.h>
 #include <string.h>
 #include <stdio.h>
+#include <errno.h>
 
 #define K_NR_listns 470
 
@@ -31,7 +32,7 @@ int main( int argc, char * argv[] )
 	req.size = sizeof(req);
 	uint64_t ns_ids[1024] = {0};
 	long ret = k_listns( &req, ns_ids, 1024, 0 );
-	printf( "ret = %ld\n", ret );
+	printf( "ret = %ld, errno %d\n", ret, errno );
 	for( int i = 0; i < 10 && i < ret; ++i )
 	{
 		printf( "%2d : %llu\n", i, (unsigned long long)ns_ids[i] );
