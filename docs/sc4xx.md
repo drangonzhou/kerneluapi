@@ -1,26 +1,7 @@
-# syscall in num
+# syscall num 400 ~ 499
 
 按系统调用号列出的系统调用列表
 
-## system call 0 ~ 49
-
-## system call 50 ~ 99
-
-## system call 100 ~ 149
-
-## system call 150 ~ 199
-
-## system call 200 ~ 249
-
-## system call 250 ~ 299
-
-## system call 300 ~ 349
-
-## system call 350 ~ 399
-
-## system call 400 ~ 449
-
-## system call 450 ~ 499
 
 | 系统调用号 | 系统调用名称 | 内核版本 | 功能分类 | 功能说明 |
 | ---------- | ------------ | ---------- | ------------ | ------------ |

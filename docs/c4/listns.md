@@ -1,7 +1,13 @@
 
-# listns 系统调用 （470）
+# listns (470) 系统调用
 
-## 简介
+列出系统中的namespace命名空间
+
+## 参考资料
+
+- [listns man page](https://www.man7.org/linux/man-pages/man2/setns.2.html)
+- [listns lwn.net](https://lwn.net/Articles/1043824/)
+- [内核实现：kernel/nstree.c](http://git.kernel.org/next/linux-next/h/next-20260306/kernel/nstree.c)
 
 ## 接口说明
 
@@ -28,7 +34,3 @@ long listns( const struct ns_id_req * req, uint64_t * ns_ids, size_t nr_ns_ids, 
 （TODO）返回的ns_ids 的用途
 
 
-## 参考资料
-
-- [listns manpage](https://www.man7.org/linux/man-pages/man2/setns.2.html)
-- [listns lwn.net](hhttps://lwn.net/Articles/1043824/)
