@@ -5,9 +5,9 @@
 
 ## 参考资料
 
-- [listns man page](https://www.man7.org/linux/man-pages/man2/setns.2.html)
+- [listns man page](https://www.man7.org/linux/man-pages/man2/listns.2.html)
 - [listns lwn.net](https://lwn.net/Articles/1043824/)
-- [内核实现：kernel/nstree.c](http://git.kernel.org/next/linux-next/h/next-20260306/kernel/nstree.c)
+- [内核实现：kernel/nstree.c](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/kernel/nstree.c)
 
 ## 接口说明
 
